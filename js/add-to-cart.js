@@ -51,6 +51,7 @@ function addToCart(e) {
         okay = false;
        }
     })
+
    // ADD TO LOCAL STORAGE
    if (okay){
     if(localStorage(productId) != false) {
@@ -60,6 +61,7 @@ function addToCart(e) {
     }
     showSuccessMessage(successMessage, successMessageSpan, name);
 }
+
 }
 
 
